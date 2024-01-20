@@ -1,0 +1,168 @@
+1) O modelo de ___b) Von Neumann_____ é a base para os computadores atuais.
+a) Leibnitz
+b)Von Neumann
+c) Pascal
+d) Charles Babbage
+2) Em um computador, o subsistema de ___c) Memória_____ armazena dados e programas.
+a) ULA
+b) Entrada/Saída
+c) Memória
+d) Unidade de controle
+3) Em um computador, o subsistema de ___a) ULA_____ realiza cálculos e operações lógicas.
+a) ULA
+b) Entrada/Saída
+c) Memória
+d) Unidade de controle
+4) De acordo com o modelo de Von Neumann, ___c) Dados e programas_____ são armazenados na memória.
+a) Somente dados
+b) Somente programas
+c) Dados e programas
+d) Nenhuma das opções anteriores
+5) Uma solução passo a passo para um problema é chamado de ____d) Algoritmo____ .
+a) Hardware
+b) Sistema Operacional
+c) Linguagem de computador
+d) Algoritmo
+
+A história da computação e dos computadores pode ser dividida basicamente em três grandes períodos: o das máquinas mecânicas (antes de 1930), o dos computadores eletrônicos (1930-1950) e a nossa atual geração que começou em 1985. Não se preocupe em lembrar cada detalhe da evolução da computação, mas é importante que você entenda que podemos pensar em um computador como sendo três componentes: hardware, dados e software.
+Subindo um pouco no nível de abstração na computação, entramos na área da lógica e aritmética. Quando pensamos anteriormente na arquitetura que envolve um computador, pensamos em como iríamos de certa forma armazenar os dados. Agora que estamos estudando as operações de lógica e aritmética, estamos aprendendo como operar sobre os dados armazenados anteriormente.
+Os exercícios abaixo estão relacionados à seção: Lógica e aritmética. Caso tenha alguma dificuldade em resolver a lista abaixo revise a seção correspondente.
+6) A base do sistema de numeração decimal é ____ c) 10
+____ .
+a) 2
+b) 8
+c) 10
+d) 16
+
+7) A base do sistema de numeração binário é _____ a) 2
+___ .
+a) 2
+b) 8
+c) 10
+d) 16
+
+8) Qual das seguintes representações está errada?
+a) (10211)2
+b) (342)8
+c) (EEE)16
+d) 42
+
+Resposta: d) 42
+
+9) Desenvolva a tabela verdade para a operação NOT.
+Entrada	Saída
+0	1
+1	0
+
+10) Desenvolva a tabela verdade para a operação AND.
+A	B	Saída
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+
+11) Desenvolva a tabela verdade para a operação OR.
+
+A	B	Saída
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+
+12) Aplique a operação XOR para os seguintes padrões binários: (10011001)2 e (00101110)2.
+  10011001
+X 00101110
+------------
+  10110111
+
+13) Explique com suas palavras como é armazenado os diferentes tipos de dados em um computador. E porque essa representação foi adotada?
+Nos exercícios anteriores tivemos como objetivo fixar os diferentes tipos de armazenamento de dados em um computador, assim como, entender como ocorre as operações sobre esses dados armazenados. Agora vamos explorar o conceito de algoritmos e o passo a passo dos procedimentos para resolver um problema em um nível ainda mais alto.
+Dica 2: Existem diversas ferramentas que você pode utilizar para criar diagramas UML, eu recomendo diagrams.net. É uma ferramenta bem intuitiva e você pode guardar seus diagramas no google drive.
+1.	Definida com as suas palavras o que é um algoritmo?
+2.	Quais são as três construções utilizadas em um algoritmo estruturado?
+3.	Faça um algoritmo que some dois números e retorne o resultado. Agora, represente o seu algoritmo em UML.
+4.	Faça um algoritmo que encontre o maior número em uma lista de números. Agora, represente o seu algoritmo em UML.
+5.	[Desafio]  Faça um procedimento que recebe um vetor A de inteiros e o seu tamanho e verifica qual o valor que mais se repete consecutivamente. O procedimento deve escrever este valor e quantas vezes ele se repete consecutivamente no vetor em questão.
+Como descrito anteriormente, um computador é composto por três importantes componentes: hardware, dados e software. Esquecendo um pouquinho os dados nesse momento, conseguimos descrever o componente de hardware como um equipamento físico, e software, o conjunto de programas que permite que o hardware faça seu trabalho. 
+O software ainda pode ser dividido em duas categorias: o sistema operacional e o sistema da aplicação. Abaixo você irá encontrar uma lista de exercícios para fixar o conhecimento relacionado a Sistemas Operacionais.
+1.	Descreva brevemente o que você entende como um Sistema Operacional.
+2.	Quais são as áreas que um Sistema Operacional moderno tem como responsabilidade gerenciar?
+Ao final do capítulo entendemos que a rede de computadores possibilitou o avanço da tecnologia e consequentemente influenciou os negócios, indústria, ciência e a educação. Você só está podendo realizar esse curso online porque a internet existe e possibilita enviar e receber informações.
+O objetivo da lista abaixo é fixar os conhecimentos vistos sobre o funcionamento da rede, internet e o conceito da nuvem.
+1.	Como uma rede é formada?
+2.	O que é o conceito de LAN (local)?
+3.	O que é o conceito de MAN (metropolitana)?
+4.	O que é o conceito de WAN (longa distância)?
+5.	Você consegue dar um exemplo de um protocolo utilizado na internet?
+6.	________ é um protocolo para acessar e transferir documentos na www.
+7.	Descreva com suas palavras o conceito de nuvem.
+
+RESPOSTAS
+A representação de diferentes tipos de dados em um computador envolve a utilização de bits (0s e 1s). Por exemplo:
+Números inteiros podem ser armazenados em representação binária.
+Números de ponto flutuante são representados em padrões específicos.
+Caracteres podem ser representados usando códigos como ASCII ou Unicode.
+Sobre Algoritmos:
+
+Um algoritmo é uma sequência de passos finitos e bem definidos para realizar uma tarefa ou resolver um problema.
+
+Três construções em um algoritmo estruturado: sequência, seleção (if/else) e repetição (loops).
+
+Algoritmo para somar dois números e retorno do resultado (em pseudocódigo):
+
+css
+Copy code
+Função Soma(a, b)
+    Retorna a + b
+Algoritmo para encontrar o maior número em uma lista (em pseudocódigo):
+
+scss
+Copy code
+Função MaiorNumero(lista)
+    maior <- lista[0]
+    Para cada elemento x na lista
+        Se x > maior
+            maior <- x
+    Retorna maior
+Procedimento para encontrar o valor que mais se repete consecutivamente em um vetor (em pseudocódigo):
+
+css
+Copy code
+Procedimento ValorMaisRepetidoConsecutivo(A, tamanho)
+    contAtual <- 1
+    contMax <- 1
+    valorAtual <- A[0]
+    valorMax <- A[0]
+
+    Para i de 1 até tamanho - 1
+        Se A[i] = A[i-1]
+            contAtual <- contAtual + 1
+            Se contAtual > contMax
+                contMax <- contAtual
+                valorMax <- A[i]
+        Senão
+            contAtual <- 1
+
+    Escreve("Valor mais repetido consecutivamente: ", valorMax)
+    Escreve("Quantidade de repetições consecutivas: ", contMax)
+Sobre Sistemas Operacionais:
+
+Um Sistema Operacional é um software que atua como intermediário entre o usuário e o hardware de um computador, fornecendo uma interface para execução de programas e gerenciamento de recursos.
+
+Áreas que um Sistema Operacional moderno gerencia: Gerenciamento de Processos, Gerenciamento de Memória, Gerenciamento de Dispositivos, Gerenciamento de Arquivos e Sistemas de Arquivos.
+
+Sobre Redes e Internet:
+
+Uma rede é formada pela interconexão de dispositivos de computação e comunicação para compartilhar recursos e informações.
+
+LAN (Local Area Network) refere-se a uma rede local em uma área geográfica limitada.
+
+MAN (Metropolitan Area Network) refere-se a uma rede metropolitana que cobre uma cidade ou área metropolitana.
+
+WAN (Wide Area Network) refere-se a uma rede de longa distância que abrange grandes distâncias geográficas.
+
+Exemplo de protocolo utilizado na internet: TCP/IP.
+
+HTTP (Hypertext Transfer Protocol) é um protocolo para acessar e transferir documentos na World Wide Web.
+
+O conceito de nuvem refere-se à entrega de serviços e armazenamento de dados pela internet, em vez de usar recursos locais.
